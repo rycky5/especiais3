@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK() for menu.html.twig.
+ */
+function saojoao2018_preprocess(&$variables) {
+
+    $variables['teste'] = 'teste';
+}

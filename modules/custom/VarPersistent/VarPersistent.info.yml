@@ -1,0 +1,6 @@
+name: Variable Persistent
+type: module
+description: Cria variáveis persistente no sistema.
+
+package: Custom
+core: '8.x'

@@ -1,0 +1,27 @@
+global-styling:
+    version: 1.x
+    css:
+        theme:
+            css/estilo.css: {}
+            css/media-query.css: {}
+            css/ie10-viewport-bug-workaround.css: {}
+    js:
+        js/ie10-viewport-bug-workaround.js: {}
+        js/custom.js: {}
+    dependencies:
+        - core/jquery
+        
+fonts:
+    css:
+        theme:
+            'https://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Rammetto+One': {}
+            
+image-gallery:
+    css:
+        theme:
+            libraries/unitegallery/css/unite-gallery.css: {}
+            libraries/unitegallery/css/ug-theme-default.css: {}
+    js:
+        libraries/unitegallery/js/unitegallery.min.js: {}
+        libraries/unitegallery/js/ug-theme-default.js: {}
+        libraries/unitegallery/initGallery.js: {}

@@ -1,0 +1,554 @@
+@font-face {
+    src:url(https://stc.uol.com/c/webfont/projeto-grafico/v2/icones-setas/uol-icones-setas.eot?2017);
+    src:url(https://stc.uol.com/c/webfont/projeto-grafico/v2/icones-setas/uol-icones-setas.eot?2017#iefix) format("embedded-opentype"), url(https://stc.uol.com/c/webfont/projeto-grafico/v2/icones-setas/uol-icones-setas.woff?2017) format("woff"), url(https://stc.uol.com/c/webfont/projeto-grafico/v2/icones-setas/uol-icones-setas.ttf?2017) format("truetype"), url(https://stc.uol.com/c/webfont/projeto-grafico/v2/icones-setas/uol-icones-setas.svg?2017#uol-icones-e-setas) format("svg");
+    font-family:UOLIcons;
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    src:url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.eot?v5);
+    src:local("?"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.eot?#iefix) format("embedded-opentype"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.woff?v5) format("woff"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.ttf?v5) format("truetype"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-regular.svg?v5#uol-text-regular) format("svg");
+    font-family:UOLText;
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    src:url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.eot?v5);
+    src:local("?"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.eot?#iefix) format("embedded-opentype"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.woff?v5) format("woff"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.ttf?v5) format("truetype"), url(https://stc.uol.com/c/webfont/projeto-grafico/uol-font/uol-text-light.svg?v5#uol-text-light) format("svg");
+    font-family:UOLTextLight;
+    font-style:normal;
+}
+#barrauol{
+    background-color:#262626;
+    color:#FFF;
+    font:14px UOLTextLight,sans-serif,Helvetica,Arial;
+    height:44px;
+    margin:0;
+    max-height:44px;
+    padding:0;
+    position:relative;
+    text-align:center;
+    width:100%;
+    z-index:9;
+}
+#barrauol .containerUOL{
+    display:inline-block;
+    width:1170px;
+}
+#barrauol .al-left{
+    float:left;
+}
+#barrauol .al-right{
+    float:right;
+}
+#barrauol .al-center{
+    height:44px;
+    left:50%;
+    margin-left:-50px;
+    position:absolute;
+    text-align:center;
+    width:100px;
+}
+#barrauol .fs-15{
+    font-size:15px;
+}
+#barrauol a{
+    text-decoration:none;
+}
+#barrauol a,#barrauol a:focus,#barrauol a:hover,#barrauol a:visited{
+    color:#FFF;
+}
+#barrauol a,#barrauol nav li{
+    transition:all .1s linear;
+}
+#barrauol ul,#barrauol li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#barrauol nav{
+    background:#262626;
+    height:44px;
+    position:relative;
+    width:auto;
+}
+#barrauol nav a{
+    display:inline-block;
+    font:13px UOLText, sans-serif, Helvetica, Arial;
+    height:44px;
+    line-height:44px;
+    padding:0 8px;
+    vertical-align:middle;
+    letter-spacing:normal;
+    text-transform:uppercase;
+}#barrauol nav i{
+    display:inline-block;
+    font-style:normal;
+    margin:0px 4px 0 0;
+    vertical-align:middle;
+}
+#barrauol nav a:before{
+    display:none;
+}
+#barrauol nav li{
+    float:left;
+    height:44px;
+    background:transparent;
+    border:0;
+}
+#barrauol nav li.first a{
+    padding-left:15px;
+}
+#barrauol nav li.last a{
+    padding-right:15px;
+}
+#barrauol nav li:hover{
+    background-color:#404040;
+}
+#barrauol .uolicons{
+    font-family:UOLIcons;
+    color:#fff;
+}#barrauol i.icon-Busca_Outline:before{
+    content:"\e905";
+    font-size:24px;
+}
+#barrauol i.icon-Email_Outline:before{
+    content:"\e906";
+    font-size:24px;
+}#barrauol i.icon-Batepapo_Outline:before{
+    content:"\e904";
+    font-size:24px;
+}
+#barrauol i.icon-email{
+    font-size:24px;
+    width:25px;
+}
+#barrauol i:before{
+    font-family:UOLIcons;margin:-3px 5px 0 0;
+    opacity:1;
+}
+#barrauol i.icon-email:before{
+    content:"\e626";
+    font-size:26px;
+    width:24px;
+}
+barrauol i.icon-batepapo{
+    font-size:26px;
+    margin-top:1px;
+    width:27px;
+}#barrauol i.icon-batepapo:before{
+    content:"\e654";
+    font-size:26px;
+    width:30px;
+}
+#barrauol i.icon-search{
+    font-size:20px;
+    margin-top:-4px;
+    width:25px;
+}
+#barrauol i.icon-search:before{
+    content:"\e619";
+    font-size:22px;
+    width:20px;
+}
+#barrauol .logouol{
+    display:inline-block;
+    font:48px UOLIcons;
+    height:44px;
+    line-height:40px;
+    margin-left:-8px;
+    position:relative;
+    width:70px;
+}
+#barrauol .logouol:hover{
+    opacity:.9;
+}
+#barrauol .logouol:before{
+    content:"\e636";
+    display:inline-block;
+    padding-left:30px;
+    padding-top:1px;
+}
+#barrauol .logouol span{
+    padding-left:30px;
+}
+#barrauol .logouol img{
+    border:none;
+}
+#barrauol .logouol img{
+    height:26px;
+    left:0;
+    position:absolute;
+    top:8px;
+    width:26px;
+}
+@media (max-width:1024px){
+    #barrauol nav a{
+        font-family:UOLText;
+        font-size:13px;
+    }
+    #barrauol .containerUOL{
+        width:940px;
+    }
+}
+@media (max-width:768px){
+    #barrauol nav{
+        display:none;
+    }
+    #barrauol .containerUOL{
+        display:block;
+        width:auto;
+    }
+}
+/* PERSONALIZAÇÃO DA ALTURA PARA BARRA DA FOLHA */
+#barrauol.barrafolha,#barrauol.barrafolha .al-center,#barrauol.barrafolha nav,#barrauol.barrafolha div,#barrauol.barrafolha nav li,#barrauol.barrafolha a,#barrauol.barrafolha .logouol{
+    height:36px;
+    max-height:36px;
+}
+#barrauol.barrafolha .logouol,#barrauol.barrafolha a{
+    line-height:36px;
+    -webkit-font-smoothing:initial;
+}
+#barrauol.barrafolha .logouol img{
+    top:6px;
+}
+#barrauol.barrafolha .al-left li.assine_sac{
+    display:none;
+}
+
+#barraleiaja, #barraleiaja * {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    list-style:none;
+    text-decoration:none;
+    line-height:normal;
+    font-family:arial;
+}
+#barraleiaja{
+    width:100%;
+    display:block;
+    height:26px;
+    margin:0;
+    background: #fff url(https://barra.leiaja.com/imagesBarra/bgContainerBarra.png) repeat-x;
+    border-bottom:1px solid #f1f1f1}#barraleiaja .innerleiaja{width:950px;margin:0 auto;
+}
+#barraleiaja .innerleiaja h2{
+    width:67px;
+    height:20px;
+    float:left;background:url(https://barra.leiaja.com/imagesBarra/logoBarra.png) no-repeat;
+    margin:3px 0 0;
+}
+#barraleiaja .innerleiaja ul{
+    float:left;
+    margin:0px 0 0 45px;
+    width:620px;
+}
+#barraleiaja .innerleiaja ul li{
+    float:left;
+    margin:0px 0px 0px 0px;
+    background:none !important
+}
+#barraleiaja .innerleiaja ul li a{
+    color:#666;
+    font-weight:300;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding:4px 13px 2px 13px;
+    border-left:1px solid #e7e7e7;
+    border-bottom:3px solid;
+    float:left;
+}
+#barraleiaja .innerleiaja ul li a:hover{
+    color:#4C4B4C;
+    background-color:#fff
+}
+barraleiaja .innerleiaja ul li:last-child a{
+    border-right:1px solid #e7e7e7;
+}
+#barraleiaja .innerleiaja ul li a.noticia{
+    border-bottom-color:#EA0C25;
+}
+barraleiaja .innerleiaja ul li a.politica{
+    border-bottom-color:#144e7c;
+}
+#barraleiaja .innerleiaja ul li a.esportes{
+    border-bottom-color:#060;
+}
+barraleiaja .innerleiaja ul li a.cultura{
+    border-bottom-color:#E77D19;
+}
+#barraleiaja .innerleiaja ul li a.tecnologia{
+    border-bottom-color:#2CB4ED;
+}
+#barraleiaja .innerleiaja ul li a.carreiras{
+    border-bottom-color:#000;
+}
+#barraleiaja .innerleiaja .buscaleiaja{
+    width:194px;
+    height:20px;
+    float:right;
+    background:url(https://barra.leiaja.com/imagesBarra/bgInput.png) no-repeat;
+    margin:3px 0 0;
+}
+#barraleiaja .innerleiaja .buscaleiaja input{
+    border:medium none;
+    color:#666;
+    float:left;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    height:18px;
+    margin:1px 2px 0 3px;
+    width:149px;
+    background:none;
+}
+#barraleiaja .innerleiaja .buscaleiaja button{
+    text-indent:-5000px;
+    border:medium none;
+    cursor:pointer;
+    float:left;
+    height:20px;
+    margin:0;
+    width:40px;
+    background:url(https://barra.leiaja.com/imagesBarra/bgButton.png?1) no-repeat;
+}
+#barraleiaja .innerleiaja .buscaleiaja button:hover{
+    background:url(https://barra.leiaja.com/imagesBarra/bgButtonHover.png?1) no-repeat;
+}
+#barraleiaja .innerleiaja .buscaleiaja button span{
+    float:left;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    text-align:center;
+    width:32px;
+    color:#F3F3F3;
+    margin:0;
+}
+@media only screen and (min-width: 700px) and (max-width: 985px) {
+    #barraleiaja .innerleiaja{
+        width:700px !important
+    }
+    #barraleiaja .innerleiaja ul{
+        width:505px;
+        margin:0px 0 0 25px;
+    }
+    #barraleiaja .innerleiaja ul li{
+        float:left;
+    }
+    #barraleiaja .innerleiaja ul li a{
+        font-size:11px;
+        font-weight:bold;
+        padding:5px 6px 6px;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja{
+        width:100px;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja input{
+        font-size:11px;
+        width:65px !important;background:none;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja button{
+        width:30px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 700px) {
+    #barraleiaja{
+        height:25px;
+        margin:0;
+        background: #fff !important
+    }
+    #barraleiaja .innerleiaja h2{
+        margin-top:7px;
+        display:none
+    }
+    #barraleiaja .innerleiaja{
+        width:450px !important;
+    }
+    #barraleiaja .innerleiaja ul{
+        width:442px;
+        margin:0px 0 0 0px;
+    }
+    #barraleiaja .innerleiaja ul li{
+        float:left;
+        margin:0 0px;
+    }
+    #barraleiaja .innerleiaja ul li a{
+        font-size:10px;
+        font-weight:normal;
+        padding:6px 6px 6px;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja{
+        width:90px;
+        display:none
+    }
+    #barraleiaja .innerleiaja .buscaleiaja input{
+        font-size:11px;
+        width:55px !important;
+        background:none;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja button{
+        width:30px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #barraleiaja{
+        height:25px;
+        margin:0;
+        background: #fff !important
+    }
+    #barraleiaja .innerleiaja h2{
+        margin-top:7px;
+        display:none
+    }
+    #barraleiaja .innerleiaja{
+        width:400px !important;
+    }
+    #barraleiaja .innerleiaja ul{
+        width:365px;
+        margin:0px 0 0 0px;
+    }
+    #barraleiaja .innerleiaja ul li{
+        float:left;
+        margin:0 0px;
+    }  #barraleiaja .innerleiaja ul li a{
+        font-size:9px;
+        font-weight:normal;
+        padding:6px 3px 6px;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja{
+        display:none
+    }
+    #barraleiaja .innerleiaja .buscaleiaja input{
+        font-size:11px;
+        width:65px !important;
+        background:none;
+    }
+    #barraleiaja .innerleiaja .buscaleiaja button{
+        width:30px;
+    }
+}
+
+.buol2011 {
+    overflow:hidden;
+}                                    
+#barrne10 {
+    background:#f8f8f8!important;                                             
+    border-top:2px solid #ff8500!important;                                             
+    border-bottom:1px solid #cfcfcf!important;                                            
+    overflow:hidden!important;                                            
+    width:100%!important;                                            
+    display:block!important;                                            
+    clear:both!important;                                            
+}                                    
+#barrne10 .barrne10_container{                                             
+    border:0!important;                                             
+        height:26px!important;                                             
+    margin:0 auto!important;                                             
+    overflow:hidden!important;                                             
+    padding:0!important;                                             
+    width:800px!important;                                     
+}                                    
+#barrne10 .barrne10_container.mobile{                                             
+    width:100%!important;                                             
+        margin:0!important;                                     
+}                                     
+#barrne10 .barrne10_container ul {                                             
+    border:0!important;                                             
+            float:left!important;                                            
+            height:26px!important;                                             
+            margin:0!important;                                             
+    padding:0!important;                                     
+}                                    
+#barrne10 .barrne10_container ul li{                                             
+    border:0!important;                                             
+    border-right:1px solid #cfcfcf!important;                                            
+    color:#333!important;                                            
+    float:left!important;                                            
+    font-size:11px!important;                                            
+    height:23px!important;                                            
+    line-height:23px!important;                                            
+    margin:0 0 0 0!important;                                             
+    margin:2px 0 0 0!important;                                            
+    float:left!important;                                            
+    display:block!important;                                            
+    padding:0!important;                                            
+    background:none!important;                                    
+}                                     
+#barrne10 .barrne10_container ul li a
+{                                             
+    font-family:arial!important;                                             
+    font-size:11px!important;                                            
+    font-weight:700!important;                                           
+    line-height:23px!important;                                            
+    padding:0 10px!important;                                           
+    height:22px!important;                                             
+    text-decoration:none;                                            
+    color:#333!important;                                    
+}                                    
+#barrne10 .barrne10_container ul li.logo_ne10_barra img{                                             
+    border:0!important;                                            
+    display:block!important;                                            
+    float:left!important;                                            
+    margin:1px 0 0 4px!important;                                     
+}                                    
+#barrne10 .barrne10_container ul li.grupo{                                             
+    float:left!important;                                             
+    font-size:11px!important;                                             
+    font-weight:100!important;                                             
+    font-family:arial!important;                                            
+    margin:2px 0 0 0!important;                                            
+    padding:0 10px!important;                                    
+}                                    
+#barrne10 .barrne10_container .conteudoEspecial{                                             
+        float:right!important;                                     
+}                                    
+#barrne10 .barrne10_container .conteudoEspecial .mais{                                             
+    background:#dfdfdf!important;                                             
+    color:#808080!important;                                             
+    display:block!important;                                            
+    font-family:arial!important;                                             
+    font-weight:700!important;                                             
+    font-size:12px!important;                                             
+    height:20px!important;                                            
+    line-height:20px!important;                                             
+    margin:3px 0 0 0!important;                                            
+    padding:0 5px!important;                                             
+    text-decoration:none!important;
+}                                                                         
+#barrne10 .barrne10_container li.noticias a{
+    color:#dd0000!important;
+}                                    
+#barrne10 .barrne10_container li.esportes a{
+    color:#13860b!important;
+}                                    
+#barrne10 .barrne10_container li.entretenimento a{
+    color:#cd00a9!important;
+}#barrne10 .barrne10_container li.blogs a {
+    color: #333 !important;
+}                                                                        
+@media screen and (min-width: 760px){ /* 800 */                                            
+    #barrne10 .barrne10_container{ 
+        width:760px!important; 
+    }                                     
+}                                    
+@media screen and (min-width: 967px){ /* 1024 */                                            
+        #barrne10 .barrne10_container{ 
+        width:967px!important; 
+    }                                     
+}                                    
+@media screen and (max-width: 780px){ /* mobile */                                            
+    #barrne10 .barrne10_container{
+        width:100%!important;
+    }                                             
+    #barrne10 .conteudoEspecial{
+        display:none!important;
+    }                                    
+}                                    
+@media screen and (max-width: 530px){                                            
+    #barrne10 .barrne10_container ul li.grupo,                                            
+    #barrne10 .barrne10_container ul li a{ font-size:9px!important; padding:0 4px!important;
+    }                                    
+}                            

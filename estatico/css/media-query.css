@@ -1,0 +1,132 @@
+@media (min-width: 992px) {
+    .navbar-nav>li>a {
+        padding-top: 18px;
+    }
+    .navbar-right .dropdown-menu {
+        right: auto;
+        left: 0;
+    }
+    .noticia-horizontal .col-md-2 {
+        padding: 35px 0;  
+    }
+    #noticias-destaques article, #agenda-eventos article, #multimidia-leiaja article {
+        padding: 0 30px 0 0;
+    }
+    .main-content {
+        width: 790px;
+    }
+    section>.titulo>h1 {
+        margin: -5px 0 0 0;
+    }
+    .sidebar {
+        width: 300px;
+        float: right;
+        margin-right: 25px; 
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-content {
+        width: 595px;
+    }
+}
+
+@media (max-width: 991px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  .marcas {
+      height: 100px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #ffd900;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff1ad;
+    }
+    #myCarousel {
+        height: 230px;
+    }
+    .carousel-caption {
+        bottom: 0;
+    }
+    .noticia-horizontal .col-md-2 {
+        padding: 15px 0;   
+    }
+    #noticias-destaques article, #agenda-eventos article, #multimidia-leiaja article {
+        padding: 0 30px 30px 0;
+    }
+    .banner-topo {
+        width: 100%;
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    section.interna>.titulo>h1 {
+        margin: 12px 0 0 0;
+    }
+    .sidebar {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .propaganda>div, .propaganda>a {
+        width: 100% !important;
+        text-align: center;
+    }
+    .agenda-eventos-sidebar {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .agenda-eventos-sidebar h3, .agenda-eventos-sidebar h5 {
+        text-align: left;
+    }
+    .agenda-eventos-sidebar .thumbnail {
+        margin: 40px 0;
+        clear: both;
+    }
+    .agenda-eventos-sidebar time {
+        margin-right: 20px
+    }
+    #noticias-destaques .titulo, #agenda-eventos .titulo, #multimidia-leiaja .titulo {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin-top: 0 !important;
+    }
+}

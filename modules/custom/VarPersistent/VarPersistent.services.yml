@@ -1,0 +1,5 @@
+services:
+  MyModule.customTwigExtension:
+    class: Drupal\VarPersistent\customTwigExtension
+    tags:
+      - { name: twig.extension }
